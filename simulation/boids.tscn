@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://c8d8wdqprljqo"]
+
+[ext_resource type="Script" uid="uid://cl4an78uevjub" path="res://Boids/BoidsRect.gd" id="1_f1wwy"]
+
+[node name="Boids" type="Control" unique_id=921498834]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BoidsRect" type="TextureRect" parent="." unique_id=1801583340]
+layout_mode = 1
+offset_right = 128.0
+offset_bottom = 128.0
+script = ExtResource("1_f1wwy")
+count = 5000
